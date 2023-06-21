@@ -36,7 +36,6 @@ module.exports = {
         'main-600': '#178069',
         'main-700': '#14705c',
         'main-800': '#115f4e',
-        // 'main-100': '#17745f',
         'secondary': '#d2ab8a',
         'light': '#f2cfcb',
       },

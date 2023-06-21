@@ -7,14 +7,23 @@ import Image2 from "../media/images/slider/carousel2.png";
 import Image3 from "../media/images/slider/carousel3.png";
 import Image4 from "../media/images/slider/carousel4.png";
 import Image5 from "../media/images/slider/carousel5.png";
+import Image6 from "../media/images/slider/carousel6.png";
+import Image7 from "../media/images/slider/carousel7.webp";
+
 
 const Hero = () => {
 
   const [currentSlide, setCurrentSlide] = useState(0);
 
     const sliderImages = [
-      { imageUrl: Image1}, {imageUrl: Image2}, {imageUrl: Image3}, {imageUrl: Image4}, {imageUrl: Image5}
-    ]
+      {imageUrl: Image1}, 
+      {imageUrl: Image2}, 
+      {imageUrl: Image3}, 
+      {imageUrl: Image4}, 
+      {imageUrl: Image5}, 
+      {imageUrl: Image6},
+      {imageUrl: Image7},
+    ];
 
     const prevSlide = () => {
       setCurrentSlide(prev => (prev === 0 ? sliderImages.length - 1 : prev - 1));
@@ -27,6 +36,15 @@ const Hero = () => {
     const goToSlide = (slideIndex) => {
       setCurrentSlide(slideIndex)
     }
+
+    useEffect(() => {
+      const timer = setTimeout(
+        nextSlide, 3000
+      )
+    return () => {
+      clearTimeout(timer);
+    }
+    }, [nextSlide]);
 
 
   return (
