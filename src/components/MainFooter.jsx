@@ -11,7 +11,7 @@ const MainFooter = () => {
                 <p>
                     At Aces and Gold, we believe that every piece of jewelry or watch is a representation of the wearer's personality and style, which is why we carefully curate our collection to offer our customers a range of stunning, high-quality pieces. <Link href="/about" className="footer-link">Read More</Link>
                 </p>
-                <ul className="flex items-centetr gap-4 text-2xl mt-5">
+                <ul className="flex items-centetr gap-x-6 text-2xl mt-5">
                     <li>
                         <Link href="#" className="footer-link">
                             <span className="bi bi-facebook"></span>
@@ -19,17 +19,7 @@ const MainFooter = () => {
                     </li>
                     <li>
                         <Link href="#" className="footer-link">
-                            <span className="bi bi-twitter"></span>
-                        </Link>
-                    </li>
-                    <li>
-                        <Link href="#" className="footer-link">
                             <span className="bi bi-instagram"></span>
-                        </Link>
-                    </li>
-                    <li>
-                        <Link href="#" className="footer-link">
-                            <span className="bi bi-linkedin"></span>
                         </Link>
                     </li>
                     <li>

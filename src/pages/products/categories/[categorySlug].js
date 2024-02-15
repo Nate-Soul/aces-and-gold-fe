@@ -2,13 +2,13 @@ import { useRouter } from "next/router";
 import FilterPanel from "@/components/FilterPanel";
 import MainHeader from "@/components/MainHeader";
 import MainFooter from "@/components/MainFooter";
-import GenericPageHeader from "@/components/GenericPageHeader";
+import GenericPageHeader from "@/components/subcomponents/GenericPageHeader";
 import ProductCard from "@/components/ProductCard";
 import featuredImg5 from "../../../media/images/products/e.jpg";
 import featuredImg6 from "../../../media/images/products/f.jpg";
 import featuredImg7 from "../../../media/images/products/g.jpg";
 import featuredImg8 from "../../../media/images/products/h.png";
-import FilterBar from "@/components/FilterBar";
+import FilterBar from "@/components/subcomponents/FilterBar";
 import PaginationBar from "@/components/PaginationBar";
 import { generateCrumbs } from "@/libs/breadCrumbs";
 

@@ -1,5 +1,5 @@
-import CartGrid from "@/components/CartGrid"
-import GenericPageHeader from "@/components/GenericPageHeader"
+import CartGrid from "@/components/sections/CartGrid"
+import GenericPageHeader from "@/components/subcomponents/GenericPageHeader"
 import MainFooter from "@/components/MainFooter"
 import MainHeader from "@/components/MainHeader"
 import { generateCrumbs } from "@/libs/breadCrumbs"

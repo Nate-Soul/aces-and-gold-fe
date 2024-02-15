@@ -11,6 +11,13 @@
   scrollbar-width: none;
   -ms-overflow-style: none;
 }
+.hide-scrollbar::-webkit-scrollbar{
+  height: 0;
+  width: 0;
+}
+.text-xxs{
+  font-size: 10px;
+}
 
 .btn{
   @apply inline-flex items-center justify-center px-3 py-2 rounded-3xl
@@ -32,21 +39,20 @@
   @apply p-2 border border-gray-300 block w-full rounded outline-none hover:border-main-500 focus:border-main-500
 }
 
-.hide-scrollbar::-webkit-scrollbar{
-  height: 0;
-  width: 0;
-}
-
 .collection-card:hover .collection-card-overlay{
   display: flex;
 }
 
 #genericPageHeader{
-  background: linear-gradient(rgba(8,45,37,.6),rgba(8,45,37,.6)), url('http://localhost:3000/images/bg1.webp') no-repeat center center/cover;
+  background: linear-gradient(rgba(8,45,37,.6),rgba(8,45,37,.6)), url('http://localhost:3000/media/images/bg/bg1.webp') no-repeat center center/cover;
 }
 
 .about-us-text p{
   margin-bottom: 1rem;
+}
+
+.product-card:hover .product-card-actions{
+  display: flex;
 }
 
 .page-link{

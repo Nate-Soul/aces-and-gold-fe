@@ -1,7 +1,7 @@
-import GenericPageHeader from "@/components/GenericPageHeader";
+import GenericPageHeader from "@/components/subcomponents/GenericPageHeader";
 import MainFooter from "@/components/MainFooter";
 import MainHeader from "@/components/MainHeader";
-import SingleProduct from "@/components/SingleProduct";
+import SingleProduct from "@/components/sections/SingleProduct";
 import { generateCrumbs } from "@/libs/breadCrumbs";
 import { useRouter } from "next/router";
 

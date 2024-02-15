@@ -1,10 +1,10 @@
 import MainHeader from "@/components/MainHeader";
 import MainFooter from "@/components/MainFooter";
-import GenericPageHeader from "@/components/GenericPageHeader";
-import ContactUs from "@/components/ContactUs";
+import GenericPageHeader from "@/components/subcomponents/GenericPageHeader";
+import ContactUs from "@/components/sections/ContactUs";
 import { generateCrumbs } from "@/libs/breadCrumbs";
-import EmailSub from "@/components/EmailSub";
-import Appointment from "@/components/Appointment";
+import EmailSub from "@/components/sections/EmailSub";
+import Appointment from "@/components/sections/Appointment";
 
 const Contact = () => {
 

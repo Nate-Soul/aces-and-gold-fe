@@ -1,11 +1,11 @@
 import MainHeader from "@/components/MainHeader";
 import MainFooter from "@/components/MainFooter";
-import GenericPageHeader from "@/components/GenericPageHeader";
-import AboutUs from "@/components/AboutUs";
-import Services from "@/components/Services";
-import WhyChooseUs from "@/components/WhyChooseUs";
-import MissionVision from "@/components/MissionVision";
-import CoreValues from "@/components/CoreValues";
+import GenericPageHeader from "@/components/subcomponents/GenericPageHeader";
+import AboutUs from "@/components/sections/AboutUs";
+import Services from "@/components/sections/Services";
+import WhyChooseUs from "@/components/sections/WhyChooseUs";
+import MissionVision from "@/components/sections/MissionVision";
+import CoreValues from "@/components/sections/CoreValues";
 import { generateCrumbs } from "@/libs/breadCrumbs";
 
 const About = () => {

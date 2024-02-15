@@ -1,5 +1,5 @@
-import CheckoutLayout from "@/components/CheckoutLayout"
-import GenericPageHeader from "@/components/GenericPageHeader"
+import CheckoutLayout from "@/components/sections/CheckoutLayout"
+import GenericPageHeader from "@/components/subcomponents/GenericPageHeader"
 import MainFooter from "@/components/MainFooter"
 import MainHeader from "@/components/MainHeader"
 

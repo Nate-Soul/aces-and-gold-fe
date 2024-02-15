@@ -1,7 +1,7 @@
-import GenericPageHeader from "@/components/GenericPageHeader";
+import GenericPageHeader from "@/components/subcomponents/GenericPageHeader";
 import MainHeader from "@/components/MainHeader";
 import MainFooter from "@/components/MainFooter";
-import ShopPage from "@/components/ShopPage";
+import ShopPage from "@/components/sections/ShopPage";
 import { generateCrumbs } from "@/libs/breadCrumbs";
 
 const Shop = () => {
